@@ -5,7 +5,7 @@ if (idade >= 0 && idade < 16) {
 } else if (idade > 15 && idade < 65) {
   alert('Adulto');
 } else if (idade > 64) {
-  alert('Idosos');
+  alert('Idoso');
 } else {
   alert('Valor Invalido');
 }
