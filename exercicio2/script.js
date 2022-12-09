@@ -1,6 +1,6 @@
-var idade = prompt('Qual é a sua idade?');
+var idade = parseInt(prompt('Qual é a sua idade?'));
 
-if (idade < 16) {
+if (idade >= 0 && idade < 16) {
   alert('Jovem');
 } else if (idade > 15 && idade < 65) {
   alert('Adulto');
